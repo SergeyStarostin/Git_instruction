@@ -98,6 +98,18 @@
 
     git branch
 
-Возвращение к главной (по умолчанию) ветке проекта:
+Создать новую ветку из текущей:
 
-    git branch master
+    git branch <name of new branch>
+
+Создать ветку и перейти в нее:
+
+    git checkout branch <name of new branch> 
+
+И также мы получим тот же результат при использовании git checkout с ключом -b:
+
+    git checkout -b <name of branch>
+
+Удаление ветки коммитов:
+
+    git branch -d <name of branch>
