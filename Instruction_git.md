@@ -92,4 +92,24 @@
 
     git checkout master
 
-    
+## 9. Работа с ветками в Git:
+
+Просмотр веток проекта:
+
+    git branch
+
+Создать новую ветку из текущей:
+
+    git branch <name of new branch>
+
+Создать ветку и перейти в нее:
+
+    git checkout branch <name of new branch> 
+
+И также мы получим тот же результат при использовании git checkout с ключом -b:
+
+    git checkout -b <name of branch>
+
+Удаление ветки коммитов:
+
+    git branch -d <name of branch>
